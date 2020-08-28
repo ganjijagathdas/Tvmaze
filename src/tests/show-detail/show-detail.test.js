@@ -27,6 +27,7 @@ describe('<ShowDetails/>',() => {
 
     it('render <h3> text should be equal to mock data', () => {
         expect(wrapper.find('h3').text()).toBe(showMockData.name);
+       
     })
 
     it('render <img> with imag',() => {
@@ -34,7 +35,8 @@ describe('<ShowDetails/>',() => {
     })
 
     it('render <h3> text should be equal to mock data', () => {
-        expect(wrapper.find('p').text()).toBe(showMockData.summary);
+        expect(wrapper.find('div.show-info').text()).toBe(showMockData.summary);
+       
     })
 
     it('render ShowCard length should one', () => {
