@@ -45,7 +45,5 @@ describe('<ShowList />', () => {
         expect(wrapper.find("img").prop("src")).toEqual(shows[0].image.medium);
     });
 
-    it('render <div> with text',() => {
-        expect(wrapper.find('div.show_name').text()).toBe(shows[0].name);
-    });
+    
 })
