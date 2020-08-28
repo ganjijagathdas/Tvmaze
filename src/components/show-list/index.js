@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Row } from "react-bootstrap";
+
 
 export default ({ type, shows }) => {
-  // if (shows.length === 0) return `no items found`;
   if (shows.length === 0) return null;
   let List = shows
     .map((show,index) => (
