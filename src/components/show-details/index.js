@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from 'axios';
 import ShowCard from "../show-card/index";
-import { Link } from "react-router-dom";
+
 
 class ShowDetail extends Component {
 
@@ -28,9 +28,6 @@ class ShowDetail extends Component {
       <div className="show-detials-wrapper">
         {show !== null &&
           <div className="show-detials">
-            <Link to={{ pathname: '/' }}>
-              <button className="back-btn">back</button>
-            </Link>
             <h3>{show.name}</h3>
             <div className="image-detials">
               <img
