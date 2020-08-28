@@ -29,15 +29,18 @@ class HomePage extends Component {
 
   fetchShowsData = () => {
     axios.get(REQUEST_URL)
-      .then((res) => this.setState({ showsData: this.sortByRating(res.data) , isLoading: false }))
+      .then((res) => this.setState({ showsData: this.sortByRating(res.data), isLoading: false }))
       .catch((error) => this.setState({ showsData: [], isLoading: true }));
   };
-  sortByRating = (data) =>{
+
+  sortByRating = (data) => {
     return data.sort((a, b) => a.rating && b.rating ? parseFloat(b.rating.average) - parseFloat(a.rating.average) : -1);
   }
-  getGenereFilter = (data, type) =>{
+
+  getGenereFilter = (data, type) => {
     return data.filter(el => el.genres.indexOf(type) > -1);
   }
+  
   render() {
     const { showsData, isLoading } = this.state;
     const genresData = this.fetchGenresData();
@@ -46,10 +49,10 @@ class HomePage extends Component {
         {isLoading ? <Loader /> : ''}
         <ShowForm />
         {genresData.length ? (
-          genresData.map((genreType,index) => (
+          genresData.map((genreType, index) => (
             <ShowList type={genreType} shows={this.getGenereFilter(showsData, genreType)} key={index} />
           ))
-        ) : null }
+        ) : null}
       </div>
     );
   }
