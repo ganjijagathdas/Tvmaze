@@ -1,11 +1,13 @@
 import React from 'react';
-import Spinner from 'react-bootstrap/Spinner'
+import loaderSrc from '../../assets/loader.gif';
 
 const Loader = () =>(
-    <div className="loader-wrapper">
-        <Spinner animation="border" role="status">
-            <span className="sr-only">Loading...</span>
-        </Spinner>
+    <div>
+        <img
+            alt="Loader icon"
+            src={loaderSrc}
+            className="loader"
+        />
     </div>
 );
 
