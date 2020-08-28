@@ -38,7 +38,7 @@ const showsMockData = {
                 "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg",
                 "original": "http://static.tvmaze.com/uploads/images/original_untouched/81/202627.jpg"
             },
-            "summary": "<p><b>Under the Dome</b> is the story of a small town that is suddenly and inexplicably sealed off from the rest of the world by an enormous transparent dome. The town's inhabitants must deal with surviving the post-apocalyptic conditions while searching for answers about the dome, where it came from and if and when it will go away.</p>",
+            "summary": "Under the Dome is the story of a small town that is suddenly and inexplicably sealed off from the rest of the world by an enormous transparent dome. The town's inhabitants must deal with surviving the post-apocalyptic conditions while searching for answers about the dome, where it came from and if and when it will go away.",
             "updated": 1573667713,
             "_links": {
                 "self": {
@@ -136,7 +136,7 @@ const showsMockData = {
                 "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/15.jpg",
                 "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/15.jpg"
             },
-            "summary": "<p>Based on the critically acclaimed series of novels from Kelley Armstrong. Set in Toronto and upper New York State, <b>Bitten</b> follows the adventures of 28-year-old Elena Michaels, the world's only female werewolf. An orphan, Elena thought she finally found her \"happily ever after\" with her new love Clayton, until her life changed forever. With one small bite, the normal life she craved was taken away and she was left to survive life with the Pack.</p>",
+            "summary": "Based on the critically acclaimed series of novels from Kelley Armstrong. Set in Toronto and upper New York State, <b>Bitten</b> follows the adventures of 28-year-old Elena Michaels, the world's only female werewolf. An orphan, Elena thought she finally found her \"happily ever after\" with her new love Clayton, until her life changed forever. With one small bite, the normal life she craved was taken away and she was left to survive life with the Pack.",
             "updated": 1577538672,
             "_links": {
                 "self": {
